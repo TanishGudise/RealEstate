@@ -1,0 +1,35 @@
+body, html {
+  height: 100%;
+}
+
+.profile-container {
+  background-color: #d4edda;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-container h1,
+.profile-container h2 {
+  margin-bottom: 20px;
+}
+
+.favorites-table {
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+.favorites-table th,
+.favorites-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+}

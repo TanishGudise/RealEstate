@@ -1,0 +1,54 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.property-details-container {
+  background-color: #d4edda;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.property-details-table {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property-details-table th,
+.property-details-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.property-details-table th {
+  background-color: #f8f9fa;
+}
+
+.property-details-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+  .property-details-table th, .property-details-table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .property-details-container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .property-details-table th, .property-details-table td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .property-details-container {
+    padding: 5px;
+  }
+}

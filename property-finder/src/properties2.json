@@ -1,0 +1,47 @@
+[
+  {
+    "Property ID": 1,
+    "Location": "New York NY",
+    "Price": 1000000,
+    "Attractiveness Score": 85,
+    "Type": "Apartment",
+    "Size (sq feet)": 800,
+    "Year Built": 2000
+  },
+  {
+    "Property ID": 2,
+    "Location": "Plano Texas",
+    "Price": 500000,
+    "Attractiveness Score": 90,
+    "Type": "House",
+    "Size (sq feet)": 4000,
+    "Year Built": 2015
+  },
+  {
+    "Property ID": 3,
+    "Location": "Chicago IL",
+    "Price": 800000,
+    "Attractiveness Score": 80,
+    "Type": "Condo",
+    "Size (sq feet)": 2000,
+    "Year Built": 2010
+  },
+  {
+    "Property ID": 4,
+    "Location": "St. Louis MO",
+    "Price": 350000,
+    "Attractiveness Score": 70,
+    "Type": "Apartment",
+    "Size (sq feet)": 1000,
+    "Year Built": 2019
+  },
+  {
+    "Property ID": 5,
+    "Location": "McLean VA",
+    "Price": 500000,
+    "Attractiveness Score": 88,
+    "Type": "House",
+    "Size (sq feet)": 3500,
+    "Year Built": 2018
+  }
+]

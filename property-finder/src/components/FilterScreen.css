@@ -1,0 +1,36 @@
+.filter-container {
+  background-color: #d4f8d4;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #2d6a4f;
+  align-self: flex-start; /* Align the title to the start of the container */
+  margin-left: 0px; /* Add left margin to move it to the left */
+  white-space: nowrap;
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
