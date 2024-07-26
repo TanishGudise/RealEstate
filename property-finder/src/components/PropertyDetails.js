@@ -39,7 +39,7 @@ const PropertyDetails = () => {
     <Container fluid className="property-details-container">
       <Row className="my-4 justify-content-between">
         <Col xs="auto">
-          <Button variant="secondary" onClick={() => navigate('/hom')}>
+          <Button variant="secondary" onClick={() => navigate('/home')}>
             Go to Home
           </Button>
         </Col>
